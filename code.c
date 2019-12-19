@@ -1,0 +1,1 @@
+FLOAT = (usMRegInBuf[1][1]<<24) | ((usMRegInBuf[1][1]<<8)&0x00FF0000) | ((usMRegInBuf[1][0]<<8)&0x0000FF00) | (usMRegInBuf[1][0]>>8);
